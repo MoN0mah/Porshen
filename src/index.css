@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Alice', serif;
+  background-color: #94b4c0;
+}
+
+code {
+  font-family: 'Alice', serif;
+}
+
+/* Navbar */
+.navbar-nav li a {
+  font-size: 17px;
+}
+
+.navbar-brand {
+  letter-spacing: 3px;
+}
+
+/* Card */
+.card {
+  background-color: #bfccd8 !important;
+  transition: all 0.5s ease;
+  text-decoration: none;
+  color: unset !important;
+  padding: 0 40px;
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: start;
+  justify-items: start;
+  gap: 30px;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Product */
+.product img {
+  transition: all 0.5s ease;
+}
+
+.product img:hover {
+  transform: scale(1.1);
+}
+
+.footerInfo {
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 22px;
+  font-weight: 600;
+}
